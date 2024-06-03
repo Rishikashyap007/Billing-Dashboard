@@ -1,0 +1,49 @@
+.Billing-home-cont{
+    display: flex;
+    gap: 2rem;
+}
+.Billing-cont{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    flex-direction: column;
+}
+.Billing-details-cont{
+    height: 40vh;
+    width: 80vw;
+    background-color: rgba(128, 128, 128, 0.094);
+}
+.Billing-details-cont p{
+    padding: 1rem  ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 1px solid gray;
+}
+.add-item-cont{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.link-style {
+    color: inherit;
+    text-decoration: none; 
+  }
+  
+  .link-style:hover {
+    text-decoration: none; 
+  }

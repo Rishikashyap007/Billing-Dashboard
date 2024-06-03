@@ -1,0 +1,78 @@
+.itemForm-cont{
+    display: flex;
+    gap: 2rem;
+}
+.itemForm-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+.add-customer-form {
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /* background-color: #f5f5f5; */
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+  }
+  .form-group select{
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #f5f5f5;
+  }
+  
+  .form-actions {
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-top: 20px;
+  }
+  
+  .form-actions button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .cancel-btn {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .create-btn {
+    background-color: #007bff;
+    color: #fff;
+  }

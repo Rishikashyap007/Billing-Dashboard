@@ -1,0 +1,73 @@
+/* *{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+.item-info-cont2{
+    width: 20vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.553);
+}
+.item-info-cont2 h2{
+    font-size: 1.5rem;
+}
+.item-add-btn{
+    display: flex;
+   border: 1px solid red;
+   justify-content: center;
+   align-items: center;
+}
+.item-add-btn span{
+    font-size: 1.5rem;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .item-info-cont2 {
+    width: 20vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.553);
+  }
+  
+  .item-info-cont2 h2 {
+    font-size: 1.5rem;
+  }
+  
+  .item-add-btn {
+    /* width: fit-content; */
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 1px solid rgba(128, 128, 128, 0.4); */
+  }
+  
+  .item-add-btn button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px; /* Add margin between buttons */
+  }
+  
+  .item-add-btn button:hover {
+    background-color: #0056b3;
+  }
+  
+  .item-add-btn span {
+    font-size: 1.5rem;
+  }
+  

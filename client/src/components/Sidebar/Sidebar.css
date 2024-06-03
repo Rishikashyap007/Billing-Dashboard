@@ -1,0 +1,31 @@
+
+.sidebar-cont {
+    width: 250px; 
+    height: 90vh; 
+    padding-top: 20px;border: 1px solid rgba(128, 128, 128, 0.454);
+  }
+  
+  .sidebar-menus {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer; 
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+
+  }
+  
+  /* .sidebar-menus.Active {
+    background-color: #5555552d; 
+  } */
+  
+  .link-style {
+    text-decoration: none; 
+    /* color: inherit;  */
+  }
+  
+  .material-symbols-outlined {
+    margin-right: 10px; 
+  }
+
+  

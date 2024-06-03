@@ -1,0 +1,121 @@
+/* .customer-select-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  /* .status-green {
+    color: green;
+  }
+  
+  .status-red {
+    color: red;
+  }
+  
+  .status-yellow {
+    color: yellow;
+  } */ 
+
+  .customer-select-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 50vw;
+  }
+  
+  .modal-content h3 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+  }
+  
+.select-customer-cont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 2rem;
+}
+.customer-info-container{
+    width: 20vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.553);
+    border-radius: 10px;
+    text-align: left;
+}
+li{
+    list-style: none;
+}
+
+.select-active-btn{
+    text-align: right;
+}
+.active{
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: rgb(90, 225, 90);
+    color: green;
+    border: none;
+    border-radius: 5px;
+}
+.Inactive{
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: rgba(255, 0, 0, 0.32);
+    color: rgb(255, 14, 14);
+    border: none;
+    border-radius: 5px;
+}
+  button {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin: 20px auto 0;
+  }

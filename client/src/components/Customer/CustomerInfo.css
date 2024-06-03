@@ -1,0 +1,73 @@
+.Customer-home-cont{
+    display: flex;
+    gap: 2rem;
+}
+.customer-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customer-header button{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: rgba(128, 128, 128, 0.26);
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+.Customer-cont{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    flex-direction: column;
+}
+.Customer-details-cont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 2rem;
+}
+.customer-info-cont{
+    width: 20vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.553);
+    border-radius: 10px;
+    /* text-align: left; */
+}
+.customer-active-btn{
+   
+    display: flex;
+    /* justify-content: flex-end;  */
+    /* border: 1px solid red; */
+    margin-left: auto;
+}
+.customer-active-btn button{
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: rgb(90, 225, 90);
+    color: green;
+    border: none;
+    border-radius: 5px;
+}
+.inactive button{
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: rgba(255, 0, 0, 0.32);
+    color: rgb(255, 14, 14);
+    border: none;
+    border-radius: 5px;
+}
