@@ -1,0 +1,16 @@
+/* CustomerInfo.css */
+
+.inactive-button {
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    /* Add any other styles you want for inactive buttons */
+  }
+  
+  .active-button {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    /* Add any other styles you want for active buttons */
+  }
+  

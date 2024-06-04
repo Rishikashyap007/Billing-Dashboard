@@ -32,7 +32,7 @@ function ItemInfo() {
             </Link>
           </div>
           <div className="item-details-cont">
-            {Data.data ? Data.data.items.map((e) => <Itemdetails name={e.itemName} />) : " Nodata"}
+            {Data.data ? Data.data.items.map((e) => <Itemdetails name={e.itemName} status={e.itemStatus} />) : " Nodata"}
             
           </div>
         </div>

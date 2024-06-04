@@ -2,11 +2,13 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
+require('dotenv').config();
 const { Invoice } = require("./Models/invoice.js");
 app.use(cors());
 
+
 mongoose
-  .connect("mongodb://127.0.0.1:27017/Billing")
+  .connect(`${process.env.DB_URL}/billing`)
   .then(() => {
     console.log("database connected");
   })
@@ -36,7 +38,7 @@ app.post("/api/invoice", async (req, res) => {
   })
   res.send(entry)
 });
-app.listen(8000, () => {
+app.listen(`${process.env.PORT}`, () => {
   console.log("server running");
 });
 

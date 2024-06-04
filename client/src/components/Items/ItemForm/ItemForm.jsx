@@ -91,8 +91,10 @@ import "./ItemForm.css";
 import Header from "../../Header/Header";
 import Sidebar from "../../Sidebar/Sidebar";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 function ItemForm() {
+  const navigate  = useNavigate()
   const [formData, setFormData] = useState({
     itemName: "",
     customerSellingPrice: "",
@@ -110,7 +112,7 @@ function ItemForm() {
     e.preventDefault();
     axios
       .post("http://localhost:8000/api/items", formData)
-      .then((response) => console.log(response))
+      .then((response) => navigate('/iteminfo'))
       .catch((err) => console.log(err));
 
     console.log(formData);

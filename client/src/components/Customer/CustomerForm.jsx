@@ -3,8 +3,10 @@ import Header from "../Header/Header";
 import Sidebar from "../Sidebar/Sidebar";
 import "./CustomerForm.css";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 function CustomerForm() {
+  const navigate  =useNavigate()
   const [formData, setFormData] = useState({
     customerName: "",
     customerAddress: "",
@@ -23,7 +25,7 @@ function CustomerForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios.post('http://localhost:8000/api/customer',formData)
-    .then(response=>console.log(response))
+    .then((response)=>navigate('/customerinfo'))
     .catch(err=>console.log(err))
      };
 
