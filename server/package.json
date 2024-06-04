@@ -120,7 +120,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "chmod +x ./node_modules/.bin/nodemon && nodemon index.js"
+
   },
   "keywords": [],
   "author": "",
