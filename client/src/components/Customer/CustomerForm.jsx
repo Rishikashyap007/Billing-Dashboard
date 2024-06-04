@@ -24,7 +24,7 @@ function CustomerForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:8000/api/customer',formData)
+    axios.post('https://billing-dashboard.onrender.com/api/customer',formData)
     .then((response)=>navigate('/customerinfo'))
     .catch(err=>console.log(err))
      };

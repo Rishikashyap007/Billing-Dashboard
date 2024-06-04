@@ -10,7 +10,7 @@
 //   console.log(id);
 
 //   useEffect(()=>{
-//     axios.get(`http://localhost:8000/api/dashboard/${id}`)
+//     axios.get(`https://billing-dashboard.onrender.com/api/dashboard/${id}`)
 //     .then(res=> {
 //       console.log(res.data)
 //       setBill(res)})
@@ -51,7 +51,7 @@ function DashboardInvoice() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8000/api/dashboard/${id}`)
+      .get(`https://billing-dashboard.onrender.com/api/dashboard/${id}`)
       .then((res) => {
         console.log(res.data);
         setBill(res.data);

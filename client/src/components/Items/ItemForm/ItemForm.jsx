@@ -111,7 +111,7 @@ function ItemForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8000/api/items", formData)
+      .post("https://billing-dashboard.onrender.com/api/items", formData)
       .then((response) => navigate('/iteminfo'))
       .catch((err) => console.log(err));
 

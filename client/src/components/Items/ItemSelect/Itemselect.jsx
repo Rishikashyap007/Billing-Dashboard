@@ -9,7 +9,7 @@
 
 //   useEffect(() => {
 //     axios
-//       .get("http://localhost:8000/api/getitems")
+//       .get("https://billing-dashboard.onrender.com/api/getitems")
 //       .then((res) => setData(res))
 //       .catch((err) => console.log(err));
 //   }, []);
@@ -65,7 +65,7 @@ const Itemselect = ({ onClose }) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/getitems")
+      .get("https://billing-dashboard.onrender.com/api/getitems")
       .then((res) => setData(res))
       .catch((err) => console.log(err));
   }, []);

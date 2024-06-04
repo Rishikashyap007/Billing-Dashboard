@@ -11,7 +11,7 @@
 
 //   useEffect(() => {
 //     axios
-//       .get("http://localhost:8000/api/dashboard")
+//       .get("https://billing-dashboard.onrender.com/api/dashboard")
 //       .then((res) => {
 //         console.log(res);
 //         setUsers(res.data); // Set users to the response data array
@@ -81,7 +81,7 @@ const DashboardHome = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/dashboard")
+      .get("https://billing-dashboard.onrender.com/api/dashboard")
       .then((res) => {
         console.log(res);
         setUsers(res.data); // Set users to the response data array

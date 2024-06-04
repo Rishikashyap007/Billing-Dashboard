@@ -13,7 +13,7 @@ function ItemInfo() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/getitems")
+      .get("https://billing-dashboard.onrender.com/api/getitems")
       .then((res) => setData(res))
       .catch((err) => console.log(err));
   }, []);

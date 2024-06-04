@@ -84,7 +84,7 @@ const CustomerSelect = ({ onClose }) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/getcustomers")
+      .get("https://billing-dashboard.onrender.com/api/getcustomers")
       .then((res) => setData(res))
       .catch((err) => console.log(err));
   }, []);

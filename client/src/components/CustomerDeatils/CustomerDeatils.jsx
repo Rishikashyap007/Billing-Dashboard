@@ -11,7 +11,7 @@
 // //   const [customer, setCustomer] = useState(null);
 // //   useEffect(() => {
 // //     axios
-// //       .get(`http://localhost:8000/api/customers/${id}`)
+// //       .get(`https://billing-dashboard.onrender.com/api/customers/${id}`)
 
 // //       .then((res) => {
 // //         setCustomer(res.data);
@@ -90,7 +90,7 @@
 //    console.log(Productarray.items);
 //   useEffect(() => {
 //     axios
-//       .get(`http://localhost:8000/api/customers/${id}`)
+//       .get(`https://billing-dashboard.onrender.com/api/customers/${id}`)
 //       .then((res) => {
 //         setCustomer(res.data);
 //       })
@@ -108,7 +108,7 @@
 //   Productarray.items.map(product => tp += product.price)
 
 //   const genreateInvoice =()=>{
-//     axios.post('http://localhost:8000/api/invoice',{
+//     axios.post('https://billing-dashboard.onrender.com/api/invoice',{
 //       name:customer.name,
 //       address:customer.address,
 //       pan:customer.panCard,
@@ -202,7 +202,7 @@ const CustomerDetails = () => {
   const [invoiceId, setInvoiceId] = useState(null);
   
   useEffect(() => {
-    axios.get(`http://localhost:8000/api/customers/${id}`)
+    axios.get(`https://billing-dashboard.onrender.com/api/customers/${id}`)
       .then((res) => {
         setCustomer(res.data);
       })
@@ -220,7 +220,7 @@ const CustomerDetails = () => {
   Productarray.items.map(product => tp += product.price);
 
   const generateInvoice = () => {
-    axios.post('http://localhost:8000/api/invoice', {
+    axios.post('https://billing-dashboard.onrender.com/api/invoice', {
       name: customer.name,
       address: customer.address,
       pan: customer.panCard,
